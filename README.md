@@ -20,7 +20,7 @@
         <a href="#questions">Questions</a>
     </ul>
     <h3 style="background-color: black;text-align: center;color:azure;" id="installation">Installation Instructions</h3>
-    <p id="installEntry">Screenshots of deployed Tech Quiz <img title="quizStart" alt="Quiz Start Screenshot" src="/Coursework/jgCi-CD/assets/quizStart.png> <img title="quizEnd" alt="Quiz End Screenshot" src="/Coursework/jgCi-CD/assets/quizFinish.png">This application is deployed live at the address below.</p>
+    <p id="installEntry">Screenshots of deployed Tech Quiz <img title="quizStart" alt="Quiz Start Screenshot" src="/Coursework/jgCi-CD/assets/quizStart.png"> <img title="quizEnd" alt="Quiz End Screenshot" src="/Coursework/jgCi-CD/assets/quizFinish.png">This application is deployed live at the address below.</p>
     <h3 style="background-color: black;text-align: center;color:azure;" id="usage">Usage Information</h3>
     <p id="usageEntry">Link to the deployed application here: <a href = "https://jgci-cd.onrender.com">TechQuiz Render Deployment</a></p>
     <h3 style="background-color: black;text-align: center;color:azure;" id="license">License</h3>
