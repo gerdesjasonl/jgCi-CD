@@ -5,10 +5,9 @@ orbs:
 
 jobs:
   deploy-to-render-staging:
-    docker:
-      - image: cimg/node:18.16
+    runs-on: ubuntu-latest
     steps:
-      - checkout
+      - uses: actions/checkout@v4
       - run:
           name: Install dependencies
           command: npm i
@@ -20,16 +19,16 @@ jobs:
           command: |
             curl -X POST $RENDER_STAGING_DEPLOYHOOK
 
-workflows:
-  run-tests-and-deploy-to-staging:
-    jobs:
-      - cypress/run:
-          name: run-component-tests
-          cypress-command: npx cypress run --component
-      - deploy-to-render-staging:
-          requires:
-            - run-component-tests
-          filters:
-            branches:
-              only: main
+# workflows:
+#   run-tests-and-deploy-to-staging:
+#     jobs:
+#       - cypress/run:
+#           name: run-component-tests
+#           cypress-command: npx cypress run --component
+#       - deploy-to-render-staging:
+#           requires:
+#             - run-component-tests
+#           filters:
+#             branches:
+#               only: main
 
