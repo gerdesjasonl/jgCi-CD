@@ -32,6 +32,7 @@
     <h3 style="background-color: black;text-align: center;color:azure;" id="questions">Further Questions</h3>
     <p style="font-weight: bold" id="questionsEntry">GitHub address: gerdesjasonl@github.com - - - Email: gerdesjasonl@gmail.com</p>
 </body>
+
 <footer>
 
 </footer>
